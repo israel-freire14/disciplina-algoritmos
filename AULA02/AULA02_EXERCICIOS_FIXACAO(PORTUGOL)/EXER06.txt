@@ -1,0 +1,12 @@
+// 6. Ler o salário de um funcionário e imprimí-lo com acréscimo de 15%;
+
+VAR
+salario, acrescimo, salarioReajustado: real;
+
+INICIO
+
+Ler salario;
+acrescimo <- (salario * 15/100);
+salarioReajustado <- (salario + acrescimo);
+
+escrever "O seu salário reajustado é: "; 

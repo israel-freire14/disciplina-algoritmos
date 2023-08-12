@@ -1,0 +1,16 @@
+// 1. Ler um número real e escrever seu cubo.
+
+VAR
+n1,resultado:REAL;
+
+INICIO
+
+Ler n1;
+resultado <- (n1*n1*n1);
+escrever "CUBO" +resultado;
+
+FIM
+
+
+Teste
+

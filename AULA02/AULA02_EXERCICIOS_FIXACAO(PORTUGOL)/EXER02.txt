@@ -1,0 +1,14 @@
+/*2. Ler dois número interos e escrever o resto da divisão 
+o primeiro pelo segundo */
+
+
+VAR 
+n1, n2, resultado: real;
+
+INICIO
+
+ler n1;
+ler n2;
+resultado <- (n1%n2);
+
+FIM

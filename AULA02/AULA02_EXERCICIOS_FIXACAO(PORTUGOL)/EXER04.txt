@@ -1,0 +1,15 @@
+//Ler três números reais e exibir o tripo da sua soma;
+
+VAR
+n1, n2, n3, soma, triploSoma: real;
+
+INICIO
+
+Ler n1;
+Ler n2;
+Ler n3;
+soma <- (n1+n2+n3);
+triploSoma <- (soma*3);
+escrever "O triplo da soma de n1, n2 e n3 é: "+triploSoma;
+
+FIM

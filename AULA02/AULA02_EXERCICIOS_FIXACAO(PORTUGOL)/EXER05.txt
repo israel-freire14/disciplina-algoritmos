@@ -1,0 +1,14 @@
+/* Ler um valor em reais e exibir o equivalente em dólares.
+Considere o dólar em 5,00;*/
+
+VAR
+n1, dolar, convertRealDolar: real;
+
+INICIO
+
+ler n1;
+dolar <- 5,00;
+convertRealDolar <- (n1*dolar);
+escrever(n1+" equivalente a "+convertRealDolar+" dólares);
+
+FIM
