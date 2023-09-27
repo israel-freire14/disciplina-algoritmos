@@ -1,0 +1,14 @@
+VAR
+distancia, tempo, vMedia: Real;
+
+INICIO
+leia(distancia)
+leia(tempo)
+vMedia <- distancia/tempo
+se(vMedia > 110.0)
+{ 
+  escreva(Velocidade superior ao limite da via)     
+} senão {
+  escreva(Velocidade dentro do limite da vida)
+}
+FIM

@@ -1,0 +1,23 @@
+
+
+PROGRAMA
+
+INICIO
+anoNascimento, anoAtual, podeVotar: Inteiro;
+
+escreva(Informe seu ano de nascimento)
+leia(anoNascimento)
+
+anoAtual -> 2004
+podeVotar -> anoAtual - anoNascimento
+
+se(podeVotar >= 16)
+{
+	escreva(Sim, pode votar!)
+}
+senao
+{
+	escreva(Não pode votar!)
+}
+
+FIM

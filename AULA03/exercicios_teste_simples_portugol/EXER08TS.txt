@@ -1,0 +1,26 @@
+/* 
+	Imprimir se um número X é divisível por Y.
+
+*/	
+
+PROGRAMA
+
+INICIO
+numX, numY, divisao: Inteiro;
+
+escreva(Entre com um numero X)
+leia(numX)
+escreva(Entre com um numero Y)
+leia(numY)
+
+
+se(numX % numY ==0
+{
+	escreva(É DIVISÍVEL)
+}
+senao
+{
+	escreva(NÃO É DIVISÍVEL)
+}
+
+FIM

@@ -1,0 +1,36 @@
+/*
+	8. Ler um letra e imprimir uma mensagem "É UMA VOGAL" se condizente.
+		Assuma que as letras estão sempre maiúsculas.
+*/
+
+PROGRAMA
+
+INICIO
+vogal: caractere;
+
+escreva(Descubra se é vogal, Obs:entrar com letras maiúsculas)
+leia(vogal)
+
+padrao(vogal)
+{
+	caso "A":
+		escreva(É VOGAL)
+		pare
+	caso "E":
+		escreva(É VOGAL)
+		pare
+	caso "I":
+		escreva(É VOGAL)
+		pare
+	caso "O":
+		escreva(É VOGAL)
+		pare
+	caso "U":
+		escreva(É VOGAL)
+		pare
+	caso contrario:
+		escreva(NÃO É VOGAL)	
+		pare
+}	
+	
+FIM

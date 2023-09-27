@@ -1,0 +1,21 @@
+/*
+Ler a idade de uma pessoa e exibir uma mensagem dizendo se ela
+está compreendida entre 18 e 65 anos.
+/*
+
+PROGRAMA
+
+INÍCIO
+
+VAR
+idade:Inteiro;
+
+se(idade >= 18 && idade <= 65)
+{
+	escrever(SUA IDADE COMPREENDE ENTRE 18 E 65 ANOS.)
+} else {
+	escrever(SUA IDADE NÃO COMPREENDE ENTRE 18 E 65 ANOS.)
+}
+
+FIM
+

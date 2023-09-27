@@ -1,0 +1,24 @@
+/*
+4. Ler um número inteiro e imprimir se ele é par e divisível por 3.
+*/
+
+PROGRAMA
+
+VAR
+num:Inteiro;
+
+INICIO
+leia(num)
+
+se(num % 2 == 0 && num % 3 == 0)
+{
+	escrever(num+" é par e divisível por 3.") 
+} senão se (num % 2 =! 0 && num % 3 == 0) {
+	escrever(num+" NÃO é par e é divisível por 3")
+} senão se (num % 2 == 0 && num % 3 =! 0) {
+	escrever(num+" é par e NÃO é divisível por 3")
+} senão {
+	escrever(num+" NÃO é par e NÃO é divisível por 3.")
+}
+
+FIM
