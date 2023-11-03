@@ -56,9 +56,9 @@ public class EXER21 {
                 qtdProduto = Integer.parseInt(stQtdProduto);
 
                 //calculo volume da garrafa (2L)
-                volGarrafa2 = qtdProduto * 2.0;
+                volGarrafa1 = qtdProduto * 2.0;
                 JOptionPane.showMessageDialog(null,"Comprou: "+qtdProduto+" garrafas (2L),"+"\n"
-                        +volGarrafa2+"L de refrigerante.");
+                        +volGarrafa1+"L de refrigerante.");
                 break;
 
             default: // digitou valor inexistente das alternativas (produto <= 0 && produto > 3)
