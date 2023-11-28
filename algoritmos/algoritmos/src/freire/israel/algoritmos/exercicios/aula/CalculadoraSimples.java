@@ -1,4 +1,4 @@
-package freire.israel.algoritmos;
+package freire.israel.algoritmos.exercicios.aula;
 import  javax.swing.JOptionPane;
 public class CalculadoraSimples {
     public static void main(String[] args) {
