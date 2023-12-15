@@ -1,4 +1,4 @@
-package freire.israel.algoritmos_aulas.quartalista;
+package freire.israel.algoritmos_aulas.vetores;
 import javax.swing.JOptionPane;
 public class EXER03VET {
     public static void main(String[] args) {
