@@ -8,7 +8,7 @@ Repositório destinado ao estudo da disciplina de algoritmos do curso de BSI.
 
 
 ---
-**Exercício avaliativos para o GitHub**
+**Exercícios avaliativos para o GitHub**
 
 1. Cap. 3 Exercícios propostos pág 57 do 1 ao 10
 2. Cap. 4 Exercícios propostos pág 86 do 1 ao 10
